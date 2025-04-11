@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ứng dụng Todo</string>
+    <string name="typeTask_name">Nhập tên tác vụ</string>
+    <string name="search"> Tìm kiếm</string>
+    <string name="addTask"> Thêm tác vụ mới</string>
+    <string name="add">Thêm</string>
+    <string name="cancel">Hủy</string>
+    <string name="editTask"> Chỉnh sửa tác vụ</string>
+    <string name="save">Lưu</string>
+    <string name="remainingTime">Thời gian còn lại </string>
+    <string name="overdue"> Đã quá hạn </string>
+    <string name="day">ngày </string>
+    <string name="hour">giờ </string>
+    <string name="minute">phút </string>
+    <string name="second">giây </string>
+    <string name="language">Ngôn ngữ </string>
+    <string name="Alow_nofi">Cho phép thông báo </string>
+
+</resources>

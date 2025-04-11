@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BTL_ToDoApp</string>
+    <string name="typeTask_name">Task Name : </string>
+    <string name="search">Search </string>
+    <string name="addTask">Add new task </string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="editTask">Edit task </string>
+    <string name="save">Save </string>
+    <string name="remainingTime"> Time Remaining</string>
+    <string name="overdue">Overdue </string>
+    <string name="day">days </string>
+    <string name="hour">hours </string>
+    <string name="minute">minutes </string>
+    <string name="second">seconds </string>
+    <string name="language">Language </string>
+    <string name="Alow_nofi">Alow task notification </string>
+
+
+
+
+
+</resources>
