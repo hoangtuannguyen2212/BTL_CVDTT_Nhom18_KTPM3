@@ -34,7 +34,7 @@ class AlarmReceiver : BroadcastReceiver() {
         )
 
         val notification = NotificationCompat.Builder(context, channelId)
-            .setSmallIcon(R.drawable.searchbar_color) // Thay bằng icon của bạn
+            .setSmallIcon(R.drawable.background)
             .setContentTitle("Task đến hạn")
             .setContentText("Task '$taskTitle' đã đến giờ thực hiện.")
             .setPriority(NotificationCompat.PRIORITY_HIGH)

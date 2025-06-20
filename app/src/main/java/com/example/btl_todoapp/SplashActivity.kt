@@ -20,6 +20,5 @@ class SplashActivity : AppCompatActivity() {
             finish() // Đóng SplashActivity để không quay lại được
         }, 2000) // Trì hoãn 3000ms (2 giây)
 
-
     }
 }

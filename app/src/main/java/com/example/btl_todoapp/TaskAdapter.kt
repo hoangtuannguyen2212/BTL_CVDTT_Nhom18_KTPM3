@@ -32,7 +32,7 @@ class TaskAdapter(private val context: Context,private  val tasks : MutableList<
     private val updateRunnable = object : Runnable {
         override fun run() {
             notifyDataSetChanged() // Cập nhật toàn bộ danh sách để làm mới thời gian còn lại
-            handler.postDelayed(this, 60000) // Cập nhật mỗi 1 phút (60000ms)
+            handler.postDelayed(this, 1000) // Cập nhật mỗi 1 s
         }
     }
 

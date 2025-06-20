@@ -16,23 +16,14 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        replaceFragment(home())
 
+        //Su dung FragmentFactory de tao Fragment ban dau
+        replaceFragment(FragmentFactory.createFragment(R.id.home))
+        //Su dung FragmentFactory de tao Fragment khi chon dieu huong
         binding.bottomNav.setOnItemSelectedListener {
-            when(it.itemId){
-
-                R.id.home -> replaceFragment(home())
-                R.id.settings -> replaceFragment(settings())
-
-                else -> {
-                }
-            }
+            replaceFragment(FragmentFactory.createFragment(it.itemId))
             true
-
         }
-
-
-
     }
     private fun replaceFragment(fragment: Fragment){
         val fragmentManager = supportFragmentManager
